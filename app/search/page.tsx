@@ -5,7 +5,7 @@ import CAC_Header from "@/components/CAC_Header";
 import Link from "next/link";
 
 export default function SearchResults() {
-   const [query, setQuery] = useState("AGE ENERGY");
+   const [query, setQuery] = useState("AEG ENERGY");
 
    return (
       <div>
@@ -67,7 +67,7 @@ export default function SearchResults() {
                {/* Search Result Card */}
                <div className="bg-white shadow-md rounded py-6 mb-[25px]">
                   <h2 className="text-green-700 text-xl font-semibold mb-1 px-6">
-                  AGE ENERGY
+                  AEG ENERGY
                   </h2>
                   <p className="text-gray-600 text-sm mb-4 px-6">BN - 7839534</p>
 

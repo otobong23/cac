@@ -11,14 +11,14 @@ import { useRouter } from 'next/navigation';
 
 // style={{ backgroundImage: `url(${heroImage.src})` }}
 
-// AGE ENERGY || 7839534
+// AEG ENERGY || 7839534
 
 export default function Home() {
   const [query, setQuery] = useState("");
   const router = useRouter();
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
-    if (query.toUpperCase().trim() === "AGE ENERGY" || query === "7839534"){
+    if (query.toUpperCase().trim() === "AEG ENERGY" || query === "7839534"){
       router.push("/search");
     }else{
       alert("No results found");

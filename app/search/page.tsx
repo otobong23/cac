@@ -5,7 +5,7 @@ import CAC_Header from "@/components/CAC_Header";
 import Link from "next/link";
 
 export default function SearchResults() {
-   const [query, setQuery] = useState("REJAH");
+   const [query, setQuery] = useState("AGE ENERGY");
 
    return (
       <div>
@@ -67,13 +67,13 @@ export default function SearchResults() {
                {/* Search Result Card */}
                <div className="bg-white shadow-md rounded py-6 mb-[25px]">
                   <h2 className="text-green-700 text-xl font-semibold mb-1 px-6">
-                     REJAH
+                  AGE ENERGY
                   </h2>
                   <p className="text-gray-600 text-sm mb-4 px-6">BN - 7839534</p>
 
                   <div className="bg-[#00000039] h-[0.2px] w-full my-[15px]" />
 
-                  <Link href='../../public/Ivory Colorful Dot Grid Bullet Journal Saving Tracker A5 Document.pdf' download className="flex flex-col sm:flex-row gap-2 text-sm px-6">
+                  <Link href='/files/CAC DOC, 2025.pdf' download className="flex flex-col sm:flex-row gap-2 text-sm px-6">
                      <div className="flex items-center gap-2">
                         <span className="font-semibold">Status:</span>
                         <span className="bg-green-600 text-white px-2 py-0.5 rounded text-xs font-medium">

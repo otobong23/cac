@@ -24,3 +24,10 @@
     background: url('../images/World_map_blue_flat_vector___TeaGraphicDesign-removebg-preview.png') #f5f8fa;
   }
 }
+
+a{
+  @apply transition-all duration-200
+}
+a:hover{
+  @apply text-[#00ad56]
+}

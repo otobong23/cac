@@ -35,8 +35,8 @@ const CAC_Footer = () => {
 
      <div>
        <h3 className="font-semibold mb-4 text-[#999]">CONTACT WITH US</h3>
-       <Link href='https://search.cac.gov.ng/+%20234%20809-552-1924' className=" text-[#555] mb-[10px]"><Icon icon="gridicons:phone" className="inline text-[#00ad56]" width="16" height="16" /> +234 809-552-1924</Link>
-       <Link href='https://search.cac.gov.ng/cservice@cac.gov.ng' className=" text-[#555] mb-[10px]"><Icon icon="bi:envelope" className="inline text-[#00ad56]" width="16" height="16" /> cservice@cac.gov.ng</Link>
+       <Link href='https://search.cac.gov.ng/+%20234%20809-552-1924' className=" text-[#555] mb-[10px] block"><Icon icon="gridicons:phone" className="inline text-[#00ad56]" width="16" height="16" /> +234 809-552-1924</Link>
+       <Link href='https://search.cac.gov.ng/cservice@cac.gov.ng' className=" text-[#555] mb-[10px] block"><Icon icon="bi:envelope" className="inline text-[#00ad56]" width="16" height="16" /> cservice@cac.gov.ng</Link>
        <p className="text-[#555] mb-5">FOLLOW US</p>
        <div className="flex gap-4">
          <Link href="https://www.facebook.com/cacnigeria1"><Icon icon="fa:facebook" width="16" height="16" className="text-[#555]" /></Link>

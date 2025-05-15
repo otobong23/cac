@@ -2,6 +2,7 @@
 import { useState } from "react";
 import CAC_Footer from "@/components/CAC_Footer";
 import CAC_Header from "@/components/CAC_Header";
+import Link from "next/link";
 
 export default function SearchResults() {
    const [query, setQuery] = useState("REJAH");
@@ -31,7 +32,7 @@ export default function SearchResults() {
                {/* Filter Tabs */}
                <div>
                   <label className="text-xs text-[#999] hidden lg:block">Type</label>
-                  <div className="flex flex-wrap text-sm">
+                  <div className="flex flex-wrap text-sm gap-3 lg:gap-0">
 
                      {[
                         "BUSINESS NAME",
@@ -62,7 +63,7 @@ export default function SearchResults() {
             <div className="bg-[#00000039] h-[0.2px] w-full my-[15px]" />
 
 
-            <div className="mx-[150px] p-[15px] pt-[60px] pb-[35px]">
+            <div className="lg:mx-[150px] p-[15px] pt-[60px] pb-[35px]">
                {/* Search Result Card */}
                <div className="bg-white shadow-md rounded py-6 mb-[25px]">
                   <h2 className="text-green-700 text-xl font-semibold mb-1 px-6">
@@ -72,7 +73,7 @@ export default function SearchResults() {
 
                   <div className="bg-[#00000039] h-[0.2px] w-full my-[15px]" />
 
-                  <div className="flex flex-col sm:flex-row gap-2 text-sm px-6">
+                  <Link href='../../public/Ivory Colorful Dot Grid Bullet Journal Saving Tracker A5 Document.pdf' download className="flex flex-col sm:flex-row gap-2 text-sm px-6">
                      <div className="flex items-center gap-2">
                         <span className="font-semibold">Status:</span>
                         <span className="bg-green-600 text-white px-2 py-0.5 rounded text-xs font-medium">
@@ -83,7 +84,7 @@ export default function SearchResults() {
                      <div>
                         <span className="font-semibold">Date of Registration - </span>May 15, 2025
                      </div>
-                  </div>
+                  </Link>
                </div>
                {/* Pagination */}
                <div className="flex justify-start mt-5">

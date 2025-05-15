@@ -18,7 +18,7 @@ export default function Home() {
   const router = useRouter();
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
-    if (query === "REJAH" || query === "7839534"){
+    if (query.toUpperCase() === "REJAH" || query === "7839534"){
       router.push("/search");
     }else{
       alert("No results found");
